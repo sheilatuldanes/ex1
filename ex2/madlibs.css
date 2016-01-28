@@ -13,7 +13,6 @@
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-    float: center;
 }
 
 body {
@@ -27,7 +26,7 @@ form input {
     margin: 20px 3px;
     padding: 10px;
     background-color: white;
-    color: white;
+    color: black;
     border: black 2px solid;
     font-size: 12pt;
     font-family: 'FuturaLight';
@@ -63,4 +62,32 @@ h1 {
     font-family: 'FuturaLight';
     color: cadetblue;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer > a:link {
+    color: white;
+}
+
+.button {
+    background-color: cadetblue;
+    padding: 15px;
+}
+
+.hide {
+    margin: 0px;
+    font-size: 0pt;
+    visibility: hidden;
 }

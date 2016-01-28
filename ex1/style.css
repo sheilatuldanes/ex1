@@ -1,3 +1,9 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 @font-face {
     font-family: FuturaCondensed;
     src: url(FuturaStd-CondensedLight.otf);
@@ -61,9 +67,14 @@ a:hover {
 
 footer {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 footer > a:link {
+    color: white;
+}
+
+footer > a:visited {
     color: white;
 }
 
@@ -103,4 +114,8 @@ header {
 .blog-content > p {
     font-family: FuturaLight;
     line-height: 25px;
+}
+
+.hide {
+    visibility: hidden;
 }

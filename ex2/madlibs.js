@@ -25,7 +25,7 @@ window.onload = function () {
         var userCeleb = document.f.celeb.value;
 
 
-        if (userName == "" || userColor == "") {
+        if (userName == "" || userColor == "" || userAdj1 == "" || userAdj2 == "" || userNoun1 == "" || userCeleb == "") {
             alert("Fill out the form!")
         } else {
             //capture the message element to change its text in html
